@@ -1,0 +1,75 @@
+# flyctl launch added from .gitignore
+
+###> symfony/framework-bundle ###
+.env.local
+.env.local.php
+.env.*.local
+config/secrets/prod/prod.decrypt.private.php
+public/bundles
+var
+vendor
+###< symfony/framework-bundle ###
+
+# flyctl launch added from vendor/psr/container/.gitignore
+vendor/psr/container/**/composer.lock
+vendor/psr/container/**/composer.phar
+vendor/psr/container/vendor
+
+# flyctl launch added from vendor/psr/event-dispatcher/.gitignore
+vendor/psr/event-dispatcher/vendor
+vendor/psr/event-dispatcher/**/composer.lock
+
+# flyctl launch added from vendor/sensio/framework-extra-bundle/.gitignore
+vendor/sensio/framework-extra-bundle/vendor
+vendor/sensio/framework-extra-bundle/**/coverage
+vendor/sensio/framework-extra-bundle/tests/Fixtures/var
+vendor/sensio/framework-extra-bundle/**/phpunit.xml
+vendor/sensio/framework-extra-bundle/**/composer.lock
+vendor/sensio/framework-extra-bundle/.php_cs.cache
+vendor/sensio/framework-extra-bundle/**/.phpunit.result.cache
+
+# flyctl launch added from vendor/symfony/cache-contracts/.gitignore
+vendor/symfony/cache-contracts/**/vendor
+vendor/symfony/cache-contracts/**/composer.lock
+vendor/symfony/cache-contracts/**/phpunit.xml
+
+# flyctl launch added from vendor/symfony/deprecation-contracts/.gitignore
+vendor/symfony/deprecation-contracts/**/vendor
+vendor/symfony/deprecation-contracts/**/composer.lock
+vendor/symfony/deprecation-contracts/**/phpunit.xml
+
+# flyctl launch added from vendor/symfony/event-dispatcher-contracts/.gitignore
+vendor/symfony/event-dispatcher-contracts/**/vendor
+vendor/symfony/event-dispatcher-contracts/**/composer.lock
+vendor/symfony/event-dispatcher-contracts/**/phpunit.xml
+
+# flyctl launch added from vendor/symfony/http-client-contracts/.gitignore
+vendor/symfony/http-client-contracts/**/vendor
+vendor/symfony/http-client-contracts/**/composer.lock
+vendor/symfony/http-client-contracts/**/phpunit.xml
+
+# flyctl launch added from vendor/symfony/service-contracts/.gitignore
+vendor/symfony/service-contracts/**/vendor
+vendor/symfony/service-contracts/**/composer.lock
+vendor/symfony/service-contracts/**/phpunit.xml
+
+# flyctl launch added from vendor/symfony/translation-contracts/.gitignore
+vendor/symfony/translation-contracts/**/vendor
+vendor/symfony/translation-contracts/**/composer.lock
+vendor/symfony/translation-contracts/**/phpunit.xml
+
+# flyctl launch added from vendor/twig/extra-bundle/.gitignore
+vendor/twig/extra-bundle/**/vendor
+vendor/twig/extra-bundle/**/var
+vendor/twig/extra-bundle/**/composer.lock
+vendor/twig/extra-bundle/**/phpunit.xml
+vendor/twig/extra-bundle/**/.phpunit.result.cache
+
+# flyctl launch added from vendor/twig/twig/.gitignore
+vendor/twig/twig/doc/_build/vendor
+vendor/twig/twig/doc/_build/output
+vendor/twig/twig/composer.lock
+vendor/twig/twig/phpunit.xml
+vendor/twig/twig/vendor
+vendor/twig/twig/**/.phpunit.result.cache
+fly.toml
